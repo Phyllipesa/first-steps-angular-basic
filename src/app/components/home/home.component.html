@@ -17,3 +17,17 @@
 }
 
 <h2 *ngIf="value">valor é true</h2>
+
+
+
+@for (item of lista; track item) {
+    <p>{{ item }}</p>
+} @empty {
+    <p>Lista vazia.</p>
+}
+
+
+<div *ngFor="let item of lista">
+    <p>{{ item }}</p>
+</div>
+<h2 *ngIf="lista.length == 0"> Lista vazia</h2>
