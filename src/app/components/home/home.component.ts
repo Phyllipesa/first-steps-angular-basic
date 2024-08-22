@@ -1,13 +1,23 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { FooterComponent } from "../footer/footer.component";
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [FooterComponent],
+  imports: [FooterComponent, CommonModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
+  name = "Bender"
+  count = signal(0);
+  value = true;
+  imgUrl = "https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_hf7nb732th2tvd4ghacvc40u76/-S265-FWEBP"
 
+  lista = ["Bender", "Fry", "lila"]
+
+  test() {
+    this.count.update(value => value + 1);
+  }
 }

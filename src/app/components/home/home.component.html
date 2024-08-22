@@ -1,1 +1,19 @@
 <app-footer></app-footer>
+
+{{ count() }}
+
+<img [src]="imgUrl">
+
+<button (click)="test()">Click here!</button>
+
+<input type="text" (change)="test()">
+
+@if (count() % 2 === 0) {
+    <h2> Numero é par</h2>
+} @else if (count() === 7) {
+    <h2> 7 é o numero da perfeição</h2>
+} @else {
+    <h2>Numeros comuns...</h2>
+}
+
+<h2 *ngIf="value">valor é true</h2>
