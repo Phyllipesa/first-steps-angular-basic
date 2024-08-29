@@ -1,27 +1,42 @@
-# FirstStepsAngularBasic
+# First Steps Angular Basic
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
+Essa é uma aplicação simples que aborda conceitos de transferencia e atualização de dados entre componentes e o consumo de uma API simples
+em uma aplicação usando Angular 18.
 
-## Development server
+O projeto já aborda as mudanças de importação do Angular 18 entre outras.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## How to run the project
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. **Clone repository:**
 
-## Build
+```bash
+git clone git@github.com:Phyllipesa/first-steps-angular-basic.git
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. **GO to the project's directory:**
 
-## Running unit tests
+```bash
+cd first-steps-angular-basic
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. **Install dependencies:**
 
-## Running end-to-end tests
+```bash
+npm install
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. **Run application:**
 
-## Further help
+```bash
+ng serve
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+4. Access application at: `http://localhost:4200`
+
+
+## Tecnologies
+
+ ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) </br>
+ ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+
